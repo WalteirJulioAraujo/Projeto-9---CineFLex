@@ -17,7 +17,7 @@ export default function Seat({name,isAvailable,seat,setSeat,id}){
                 setSeat(seat.filter((e)=>e!==id))
             }
         }else{
-            alert("assento indisponível");
+            alert("Esse assento não está disponível");
         }   
     }
 
