@@ -19,7 +19,7 @@ export default function InfoSession({setInfo,info}){
         promisse.then((e)=>{
             setSeats(e.data.seats)
             console.log(e.data)
-            setInfo({title:e.data.movie.title,weekday:e.data.day.weekday,date:e.data.day.date})
+            setInfo({title:e.data.movie.title,weekday:e.data.day.weekday,date:e.data.day.date,hour:e.data.name})
         });
     },[])
     
