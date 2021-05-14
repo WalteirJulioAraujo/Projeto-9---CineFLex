@@ -40,3 +40,30 @@
 .session span{
     margin-bottom: 10px;
 }
+
+.seat{
+    background-color: #C3CFD9;
+    border: 1px solid #808F9D;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.not-available{
+    background-color:#FBE192;
+}
+
+.selected{
+    background-color: #8DD7CF;
+}
+
+.booking{
+    width: 225px;
+    height: 42px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin: 0 auto;
+}
