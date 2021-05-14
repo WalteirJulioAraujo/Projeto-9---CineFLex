@@ -11,7 +11,7 @@ export default function BuyerInfo({setBuyerCpf,buyerCpf,buyerName,setBuyerName})
             </div>
             
             <div className="input">
-                <span>Cpf do comprador</span>
+                <span>CPF do comprador</span>
                 <input type="text" placeholder="Digite seu CPF..." onChange={(e)=>setBuyerCpf(e.target.value)} value={buyerCpf}/>
             </div>
             
