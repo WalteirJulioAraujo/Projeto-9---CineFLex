@@ -56,6 +56,7 @@ body{
 
 .session span{
     margin-bottom: 10px;
+    color: whitesmoke;
 }
 
 .seat{
@@ -165,7 +166,8 @@ body{
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 20px;
-    color: whitesmoke;
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
 }
 
 .subtitle div{
@@ -175,4 +177,10 @@ body{
 
 .container-booking{
     margin: 0 auto;
+}
+
+.info{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 25px;
 }
